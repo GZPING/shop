@@ -7,6 +7,7 @@ public class User {
 
     private Integer id;
     private Integer age;
+    private Integer admin;
     private String name;
     private String password;
     private String loginname;
@@ -94,6 +95,14 @@ public class User {
 
     public void setLastIP(String lastIP) {
         this.lastIP = lastIP;
+    }
+
+    public Integer getAdmin() {
+        return admin;
+    }
+
+    public void setAdmin(Integer admin) {
+        this.admin = admin;
     }
 
     @Override

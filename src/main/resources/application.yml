@@ -29,3 +29,6 @@ spring:
 mybatis:
   mapperLocations: classpath:mapper/*.xml
   typeAliasesPackage: com.shopping.domain
+
+#自定义熟悉
+USER_SESSION: USER_SESSION
